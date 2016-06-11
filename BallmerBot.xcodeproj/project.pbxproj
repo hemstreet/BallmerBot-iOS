@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C2FCEA0833C2518B819F0A /* Pods_BallmerBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B74C5CBBFD27076260E62DA /* Pods_BallmerBot.framework */; };
+		339DD7E21D0C7C54007C0118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DD7E11D0C7C54007C0118 /* AppDelegate.swift */; };
+		339DD7E41D0C7C54007C0118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DD7E31D0C7C54007C0118 /* ViewController.swift */; };
+		339DD7E71D0C7C54007C0118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339DD7E51D0C7C54007C0118 /* Main.storyboard */; };
+		339DD7E91D0C7C54007C0118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339DD7E81D0C7C54007C0118 /* Assets.xcassets */; };
+		339DD7EC1D0C7C54007C0118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339DD7EA1D0C7C54007C0118 /* LaunchScreen.storyboard */; };
+		339DD7F71D0C7C55007C0118 /* BallmerBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DD7F61D0C7C55007C0118 /* BallmerBotTests.swift */; };
+		339DD8021D0C7C55007C0118 /* BallmerBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DD8011D0C7C55007C0118 /* BallmerBotUITests.swift */; };
+		339DD8101D0C7E8B007C0118 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DD80F1D0C7E8B007C0118 /* HttpRequest.swift */; };
+		51497A1BC14CCBA41E8BC5FB /* Pods_BallmerBotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BB1897AE92D37F7C17D593 /* Pods_BallmerBotUITests.framework */; };
+		902D8E32CDFD9657B223C023 /* Pods_BallmerBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D8ED6CDBCEB9B6E86AB8AE /* Pods_BallmerBotTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339DD7F31D0C7C55007C0118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339DD7D61D0C7C54007C0118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339DD7DD1D0C7C54007C0118;
+			remoteInfo = BallmerBot;
+		};
+		339DD7FE1D0C7C55007C0118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339DD7D61D0C7C54007C0118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339DD7DD1D0C7C54007C0118;
+			remoteInfo = BallmerBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D955DDFED4B7EAF8F840591 /* Pods-BallmerBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallmerBotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BallmerBotTests/Pods-BallmerBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		11C1CC672732E20051566A2C /* Pods-BallmerBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallmerBotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BallmerBotUITests/Pods-BallmerBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B74C5CBBFD27076260E62DA /* Pods_BallmerBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallmerBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C311374ADC477D524AE4E6 /* Pods-BallmerBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallmerBotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BallmerBotUITests/Pods-BallmerBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		339DD7DE1D0C7C54007C0118 /* BallmerBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallmerBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339DD7E11D0C7C54007C0118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		339DD7E31D0C7C54007C0118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		339DD7E61D0C7C54007C0118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		339DD7E81D0C7C54007C0118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339DD7EB1D0C7C54007C0118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		339DD7ED1D0C7C54007C0118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339DD7F21D0C7C55007C0118 /* BallmerBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallmerBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339DD7F61D0C7C55007C0118 /* BallmerBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallmerBotTests.swift; sourceTree = "<group>"; };
+		339DD7F81D0C7C55007C0118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339DD7FD1D0C7C55007C0118 /* BallmerBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallmerBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339DD8011D0C7C55007C0118 /* BallmerBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallmerBotUITests.swift; sourceTree = "<group>"; };
+		339DD8031D0C7C55007C0118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339DD80F1D0C7E8B007C0118 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		7063FEB34B491259B167AD68 /* Pods-BallmerBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallmerBotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BallmerBotTests/Pods-BallmerBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94BB1897AE92D37F7C17D593 /* Pods_BallmerBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallmerBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D8ED6CDBCEB9B6E86AB8AE /* Pods_BallmerBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallmerBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C3DA20B53F2ED676135C1F /* Pods-BallmerBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallmerBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-BallmerBot/Pods-BallmerBot.release.xcconfig"; sourceTree = "<group>"; };
+		A73EB25509E76E2C6517F7B0 /* Pods-BallmerBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallmerBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BallmerBot/Pods-BallmerBot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339DD7DB1D0C7C54007C0118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C2FCEA0833C2518B819F0A /* Pods_BallmerBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339DD7EF1D0C7C55007C0118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902D8E32CDFD9657B223C023 /* Pods_BallmerBotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339DD7FA1D0C7C55007C0118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51497A1BC14CCBA41E8BC5FB /* Pods_BallmerBotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2045E038B7F03E944B57E002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A73EB25509E76E2C6517F7B0 /* Pods-BallmerBot.debug.xcconfig */,
+				98C3DA20B53F2ED676135C1F /* Pods-BallmerBot.release.xcconfig */,
+				7063FEB34B491259B167AD68 /* Pods-BallmerBotTests.debug.xcconfig */,
+				0D955DDFED4B7EAF8F840591 /* Pods-BallmerBotTests.release.xcconfig */,
+				11C1CC672732E20051566A2C /* Pods-BallmerBotUITests.debug.xcconfig */,
+				29C311374ADC477D524AE4E6 /* Pods-BallmerBotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3330BB571D0C8EE70015E8D4 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				339DD80F1D0C7E8B007C0118 /* HttpRequest.swift */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		339DD7D51D0C7C54007C0118 = {
+			isa = PBXGroup;
+			children = (
+				339DD7E01D0C7C54007C0118 /* BallmerBot */,
+				339DD7F51D0C7C55007C0118 /* BallmerBotTests */,
+				339DD8001D0C7C55007C0118 /* BallmerBotUITests */,
+				339DD7DF1D0C7C54007C0118 /* Products */,
+				2045E038B7F03E944B57E002 /* Pods */,
+				5448B5DE6DF59BDF2EE3D7D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		339DD7DF1D0C7C54007C0118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339DD7DE1D0C7C54007C0118 /* BallmerBot.app */,
+				339DD7F21D0C7C55007C0118 /* BallmerBotTests.xctest */,
+				339DD7FD1D0C7C55007C0118 /* BallmerBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339DD7E01D0C7C54007C0118 /* BallmerBot */ = {
+			isa = PBXGroup;
+			children = (
+				3330BB571D0C8EE70015E8D4 /* Request */,
+				339DD7E11D0C7C54007C0118 /* AppDelegate.swift */,
+				339DD7E31D0C7C54007C0118 /* ViewController.swift */,
+				339DD7E51D0C7C54007C0118 /* Main.storyboard */,
+				339DD7E81D0C7C54007C0118 /* Assets.xcassets */,
+				339DD7EA1D0C7C54007C0118 /* LaunchScreen.storyboard */,
+				339DD7ED1D0C7C54007C0118 /* Info.plist */,
+			);
+			path = BallmerBot;
+			sourceTree = "<group>";
+		};
+		339DD7F51D0C7C55007C0118 /* BallmerBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				339DD7F61D0C7C55007C0118 /* BallmerBotTests.swift */,
+				339DD7F81D0C7C55007C0118 /* Info.plist */,
+			);
+			path = BallmerBotTests;
+			sourceTree = "<group>";
+		};
+		339DD8001D0C7C55007C0118 /* BallmerBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339DD8011D0C7C55007C0118 /* BallmerBotUITests.swift */,
+				339DD8031D0C7C55007C0118 /* Info.plist */,
+			);
+			path = BallmerBotUITests;
+			sourceTree = "<group>";
+		};
+		5448B5DE6DF59BDF2EE3D7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B74C5CBBFD27076260E62DA /* Pods_BallmerBot.framework */,
+				97D8ED6CDBCEB9B6E86AB8AE /* Pods_BallmerBotTests.framework */,
+				94BB1897AE92D37F7C17D593 /* Pods_BallmerBotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339DD7DD1D0C7C54007C0118 /* BallmerBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339DD8061D0C7C55007C0118 /* Build configuration list for PBXNativeTarget "BallmerBot" */;
+			buildPhases = (
+				0ABD194A8CBCFAB616536C8D /* [CP] Check Pods Manifest.lock */,
+				339DD7DA1D0C7C54007C0118 /* Sources */,
+				339DD7DB1D0C7C54007C0118 /* Frameworks */,
+				339DD7DC1D0C7C54007C0118 /* Resources */,
+				6EFC3F29F3322592A9A8997C /* [CP] Embed Pods Frameworks */,
+				959471FC2683BE91D1F3F241 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallmerBot;
+			productName = BallmerBot;
+			productReference = 339DD7DE1D0C7C54007C0118 /* BallmerBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339DD7F11D0C7C55007C0118 /* BallmerBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339DD8091D0C7C55007C0118 /* Build configuration list for PBXNativeTarget "BallmerBotTests" */;
+			buildPhases = (
+				9200305DDC096D7121BFFE41 /* [CP] Check Pods Manifest.lock */,
+				339DD7EE1D0C7C55007C0118 /* Sources */,
+				339DD7EF1D0C7C55007C0118 /* Frameworks */,
+				339DD7F01D0C7C55007C0118 /* Resources */,
+				181680B4A4F4A28E221F9177 /* [CP] Embed Pods Frameworks */,
+				579A7C1A35E8C24ABCA96997 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339DD7F41D0C7C55007C0118 /* PBXTargetDependency */,
+			);
+			name = BallmerBotTests;
+			productName = BallmerBotTests;
+			productReference = 339DD7F21D0C7C55007C0118 /* BallmerBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339DD7FC1D0C7C55007C0118 /* BallmerBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339DD80C1D0C7C55007C0118 /* Build configuration list for PBXNativeTarget "BallmerBotUITests" */;
+			buildPhases = (
+				FAE63D08EA7326AE8009A19F /* [CP] Check Pods Manifest.lock */,
+				339DD7F91D0C7C55007C0118 /* Sources */,
+				339DD7FA1D0C7C55007C0118 /* Frameworks */,
+				339DD7FB1D0C7C55007C0118 /* Resources */,
+				EB5CB8A9E4C6A631CD910B1E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339DD7FF1D0C7C55007C0118 /* PBXTargetDependency */,
+			);
+			name = BallmerBotUITests;
+			productName = BallmerBotUITests;
+			productReference = 339DD7FD1D0C7C55007C0118 /* BallmerBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339DD7D61D0C7C54007C0118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jon Hemstreet";
+				TargetAttributes = {
+					339DD7DD1D0C7C54007C0118 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					339DD7F11D0C7C55007C0118 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 339DD7DD1D0C7C54007C0118;
+					};
+					339DD7FC1D0C7C55007C0118 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 339DD7DD1D0C7C54007C0118;
+					};
+				};
+			};
+			buildConfigurationList = 339DD7D91D0C7C54007C0118 /* Build configuration list for PBXProject "BallmerBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339DD7D51D0C7C54007C0118;
+			productRefGroup = 339DD7DF1D0C7C54007C0118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339DD7DD1D0C7C54007C0118 /* BallmerBot */,
+				339DD7F11D0C7C55007C0118 /* BallmerBotTests */,
+				339DD7FC1D0C7C55007C0118 /* BallmerBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339DD7DC1D0C7C54007C0118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339DD7EC1D0C7C54007C0118 /* LaunchScreen.storyboard in Resources */,
+				339DD7E91D0C7C54007C0118 /* Assets.xcassets in Resources */,
+				339DD7E71D0C7C54007C0118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339DD7F01D0C7C55007C0118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339DD7FB1D0C7C55007C0118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ABD194A8CBCFAB616536C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		181680B4A4F4A28E221F9177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallmerBotTests/Pods-BallmerBotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579A7C1A35E8C24ABCA96997 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallmerBotTests/Pods-BallmerBotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EFC3F29F3322592A9A8997C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallmerBot/Pods-BallmerBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9200305DDC096D7121BFFE41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		959471FC2683BE91D1F3F241 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallmerBot/Pods-BallmerBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5CB8A9E4C6A631CD910B1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallmerBotUITests/Pods-BallmerBotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE63D08EA7326AE8009A19F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339DD7DA1D0C7C54007C0118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339DD7E41D0C7C54007C0118 /* ViewController.swift in Sources */,
+				339DD7E21D0C7C54007C0118 /* AppDelegate.swift in Sources */,
+				339DD8101D0C7E8B007C0118 /* HttpRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339DD7EE1D0C7C55007C0118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339DD7F71D0C7C55007C0118 /* BallmerBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339DD7F91D0C7C55007C0118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339DD8021D0C7C55007C0118 /* BallmerBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339DD7F41D0C7C55007C0118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339DD7DD1D0C7C54007C0118 /* BallmerBot */;
+			targetProxy = 339DD7F31D0C7C55007C0118 /* PBXContainerItemProxy */;
+		};
+		339DD7FF1D0C7C55007C0118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339DD7DD1D0C7C54007C0118 /* BallmerBot */;
+			targetProxy = 339DD7FE1D0C7C55007C0118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		339DD7E51D0C7C54007C0118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339DD7E61D0C7C54007C0118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		339DD7EA1D0C7C54007C0118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339DD7EB1D0C7C54007C0118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		339DD8041D0C7C55007C0118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339DD8051D0C7C55007C0118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339DD8071D0C7C55007C0118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73EB25509E76E2C6517F7B0 /* Pods-BallmerBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallmerBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonhemstreetinc.BallmerBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		339DD8081D0C7C55007C0118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C3DA20B53F2ED676135C1F /* Pods-BallmerBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallmerBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonhemstreetinc.BallmerBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		339DD80A1D0C7C55007C0118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7063FEB34B491259B167AD68 /* Pods-BallmerBotTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallmerBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonhemstreetinc.BallmerBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallmerBot.app/BallmerBot";
+			};
+			name = Debug;
+		};
+		339DD80B1D0C7C55007C0118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D955DDFED4B7EAF8F840591 /* Pods-BallmerBotTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallmerBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonhemstreetinc.BallmerBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallmerBot.app/BallmerBot";
+			};
+			name = Release;
+		};
+		339DD80D1D0C7C55007C0118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C1CC672732E20051566A2C /* Pods-BallmerBotUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BallmerBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonhemstreetinc.BallmerBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BallmerBot;
+			};
+			name = Debug;
+		};
+		339DD80E1D0C7C55007C0118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C311374ADC477D524AE4E6 /* Pods-BallmerBotUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BallmerBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonhemstreetinc.BallmerBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BallmerBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339DD7D91D0C7C54007C0118 /* Build configuration list for PBXProject "BallmerBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339DD8041D0C7C55007C0118 /* Debug */,
+				339DD8051D0C7C55007C0118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339DD8061D0C7C55007C0118 /* Build configuration list for PBXNativeTarget "BallmerBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339DD8071D0C7C55007C0118 /* Debug */,
+				339DD8081D0C7C55007C0118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339DD8091D0C7C55007C0118 /* Build configuration list for PBXNativeTarget "BallmerBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339DD80A1D0C7C55007C0118 /* Debug */,
+				339DD80B1D0C7C55007C0118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339DD80C1D0C7C55007C0118 /* Build configuration list for PBXNativeTarget "BallmerBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339DD80D1D0C7C55007C0118 /* Debug */,
+				339DD80E1D0C7C55007C0118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339DD7D61D0C7C54007C0118 /* Project object */;
+}
