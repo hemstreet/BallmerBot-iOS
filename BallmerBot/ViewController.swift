@@ -20,6 +20,12 @@ class ViewController: UIViewController {
                 print(JSON)
             }
         }
+        
+        http.getDrinkRequest().responseJSON { response in
+            if let JSON = response.result.value {
+                print(JSON)
+            }
+        }
 
     }
 
