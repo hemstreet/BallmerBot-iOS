@@ -27,6 +27,33 @@ class HttpRequest {
     ]
     
     let host = "http://162.243.121.163:3000/api/v1"
+
+    //   Implement /authorization
+    func authorize(username: String, password: String) {
+        
+        // Need to implement .POST for Alamofire
+        
+        // send auth off
+            // if valid set the access token variable to self.headers["x-access-token"]
+        
+    }
+    
+    //   Implement  /signup
+    func signup(username: String, password: String) {
+        
+        // Need to implement .POST for Alamofire
+        
+        // hit signup endpoint
+            // depending on returned data set self.header["x-access-token"] or hit auth endpoint
+    }
+    
+    //    Implement /list/Drink
+    func getDrinkRequest() -> Request {
+        return getRequest("/list/Drink", params: ["": ""]);
+    }
+    
+//    /pour/{{drinkName}} # pourDrink
+//    /pour/{{pump}} #pourFromPump
     
     func getBottlesRequest() -> Request {
         return getRequest("/list/Bottle", params: ["": ""]);

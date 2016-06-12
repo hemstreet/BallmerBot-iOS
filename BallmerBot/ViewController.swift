@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         http.getBottlesRequest().responseJSON { response in
             if let JSON = response.result.value {
-                print(JSON["entries"]?![0]["name"]!)
+                print(JSON)
             }
         }
 
